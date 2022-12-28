@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-func Hello(name string) (string, error) {
+func Hola(name string) (string, error) {
 	if name == "" {
 		return "", errors.New("empty name")
 	}
